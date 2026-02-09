@@ -5,9 +5,10 @@ This project is a **desktop gym management application** developed using **Java 
 for the graphical user interface and **JDBC** for database access.
 
 The application allows the gym administrator to manage clients efficiently by performing
-CRUD operations (Create, Read, Update, Delete) on a relational database.
+**CRUD operations** (Create, Read, Update, Delete) on a relational database.
 
-This project was developed as part of an **academic mini-project** for the BTS DAI program.
+This project was developed as part of an **academic mini-project** for the
+**BTS Développement des Applications Informatiques (DAI)** program.
 
 ---
 
@@ -30,15 +31,14 @@ src/
 database/
 └── database.sql
 
-
 ---
 
 ## ⚙️ Installation & Setup
 
 ### 1️⃣ Prerequisites
 Before running the project, make sure you have:
-- Java JDK installed
-- MySQL installed and running
+- Java JDK (8 or higher)
+- MySQL Server (running)
 - An IDE (Eclipse / IntelliJ IDEA / NetBeans)
 
 ---
@@ -46,8 +46,10 @@ Before running the project, make sure you have:
 ### 2️⃣ Clone the Repository
 ```bash
 git clone https://github.com/Amine-ECH/gym-management-system-java.git
-
+cd gym-management-system-java
+```
 3️⃣ Database Configuration
+
 Create a new MySQL database (example: gym_db)
 Import the SQL script located in:
 database/database.sql
@@ -59,9 +61,11 @@ Username
 Password
 
 4️⃣ Run the Application
-Open the project in your IDE
-Add the MySQL JDBC driver to the project
-Run the main class from the ui package
 
-## 👤 Author
-- **Amine ECH CHIGUER**
+Open the project in your IDE
+Add the MySQL JDBC driver to the project libraries
+Run the main class from the ui package
+The application window will appear
+
+👤 Author
+Amine ECH CHIGUER
