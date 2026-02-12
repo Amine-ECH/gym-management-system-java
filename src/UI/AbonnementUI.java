@@ -58,7 +58,7 @@ public class AbonnementUI extends JFrame {
         txtDateFin = new JTextField();
         txtDateFin.setEditable(false);
 
-        cbStatut = new JComboBox<>(new String[]{"ACTIF", "EXPIRE"}); // pour une strecturer les element 
+        cbStatut = new JComboBox<>(new String[]{"ACTIF", "EXPIRE"}); // 
 
         form.add(new JLabel("Client :"));
         form.add(cbClient);
