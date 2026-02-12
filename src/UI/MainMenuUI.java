@@ -19,10 +19,10 @@ public class MainMenuUI extends JFrame {
         JPanel panel = new JPanel(new GridLayout(4, 1, 10, 10));
         panel.setBorder(BorderFactory.createEmptyBorder(30, 50, 30, 50));
 
-        JButton btnClients = new JButton("Gestion des Clients");
-        JButton btnTypes = new JButton("Types d’Abonnement");
+        JButton btnClients = new JButton("Gestion des Clients ");
+        JButton btnTypes = new JButton("Types dâ€™Abonnement ");
         JButton btnAbonnements = new JButton("Abonnements");
-        JButton btnLogout = new JButton("Déconnexion");
+        JButton btnLogout = new JButton("DÃ©connexion");
 
         panel.add(btnClients);
         panel.add(btnTypes);
